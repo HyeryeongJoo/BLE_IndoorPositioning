@@ -267,6 +267,12 @@ public class DeviceScanActivity extends Activity {
 			downLeft.setFillAfter(true);
 			manImg.startAnimation(downLeft);
 			break;
+		case 3:
+			Animation downRight = AnimationUtils.loadAnimation(ctx,
+					R.anim.slide_to_3);
+			downRight.setFillAfter(true);
+			manImg.startAnimation(downRight);
+			break;
 		}
 	}
 	/*
